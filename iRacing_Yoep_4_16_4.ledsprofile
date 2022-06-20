@@ -22319,6 +22319,45 @@
               "BlinkDelay": 125,
               "Segments": [
                 {
+                  "StartValue": 86.315,
+                  "EndValue": 0.0,
+                  "NormalColor": "Lime",
+                  "BlinkingColor": "Cyan",
+                  "UseBlinkingColor": true,
+                  "LedCount": 1,
+                  "SampleResult": {
+                    "Width": 1,
+                    "Position": 0,
+                    "Columns": -1
+                  }
+                },
+                {
+                  "StartValue": 87.368,
+                  "EndValue": 0.0,
+                  "NormalColor": "Lime",
+                  "BlinkingColor": "Cyan",
+                  "UseBlinkingColor": true,
+                  "LedCount": 1,
+                  "SampleResult": {
+                    "Width": 1,
+                    "Position": 0,
+                    "Columns": -1
+                  }
+                },
+                {
+                  "StartValue": 88.421,
+                  "EndValue": 0.0,
+                  "NormalColor": "Lime",
+                  "BlinkingColor": "Cyan",
+                  "UseBlinkingColor": true,
+                  "LedCount": 1,
+                  "SampleResult": {
+                    "Width": 1,
+                    "Position": 0,
+                    "Columns": -1
+                  }
+                },
+                {
                   "StartValue": 89.474,
                   "EndValue": 0.0,
                   "NormalColor": "Lime",
@@ -22434,12 +22473,77 @@
                     "Position": 0,
                     "Columns": -1
                   }
+                },
+                {
+                  "StartValue": 88.421,
+                  "EndValue": 0.0,
+                  "NormalColor": "Lime",
+                  "BlinkingColor": "Cyan",
+                  "UseBlinkingColor": true,
+                  "LedCount": 1,
+                  "SampleResult": {
+                    "Width": 1,
+                    "Position": 0,
+                    "Columns": -1
+                  }
+                },
+                {
+                  "StartValue": 87.368,
+                  "EndValue": 0.0,
+                  "NormalColor": "Lime",
+                  "BlinkingColor": "Cyan",
+                  "UseBlinkingColor": true,
+                  "LedCount": 1,
+                  "SampleResult": {
+                    "Width": 1,
+                    "Position": 0,
+                    "Columns": -1
+                  }
+                },
+                {
+                  "StartValue": 86.315,
+                  "EndValue": 0.0,
+                  "NormalColor": "Lime",
+                  "BlinkingColor": "Cyan",
+                  "UseBlinkingColor": true,
+                  "LedCount": 1,
+                  "SampleResult": {
+                    "Width": 1,
+                    "Position": 0,
+                    "Columns": -1
+                  }
+                },
+                {
+                  "StartValue": 90.0,
+                  "EndValue": 0.0,
+                  "NormalColor": "Blue",
+                  "BlinkingColor": "Blue",
+                  "UseBlinkingColor": true,
+                  "LedCount": 1,
+                  "SampleResult": {
+                    "Width": 1,
+                    "Position": 0,
+                    "Columns": -1
+                  }
+                },
+                {
+                  "StartValue": 90.0,
+                  "EndValue": 0.0,
+                  "NormalColor": "Blue",
+                  "BlinkingColor": "Blue",
+                  "UseBlinkingColor": true,
+                  "LedCount": 1,
+                  "SampleResult": {
+                    "Width": 1,
+                    "Position": 0,
+                    "Columns": -1
+                  }
                 }
               ],
-              "SegmentsCount": 9,
+              "SegmentsCount": 15,
               "BlinkEnabled": false,
               "BlinkOnLastGear": false,
-              "StartPosition": 8,
+              "StartPosition": 5,
               "ContainerId": "44b464e7-d002-4401-8ebe-086adaf3b611",
               "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.RPMSegmentsContainer",
               "Description": "Show leds solid color segments based on car RPMs copy",
@@ -22462,14 +22566,14 @@
             "Expression": "",
             "SimpleOperationProp": null
           },
-          "LedCount": 10,
+          "LedCount": 16,
           "Color": "Cyan",
           "BlinkEnabled": true,
           "BlinkDelay": 125,
           "DualBlinkTimingEnabled": false,
           "OffDelay": 250,
           "OnDelay": 250,
-          "StartPosition": 8,
+          "StartPosition": 5,
           "ContainerId": "dbf0cbed-ce99-446b-85f8-4e09f942433d",
           "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.CustomStatusContainer",
           "Description": "REDLINE 9000",
@@ -22478,28 +22582,28 @@
         {
           "LedContainers": [
             {
-              "LedCount": 10,
+              "LedCount": 16,
               "Color": "Black",
               "BlinkEnabled": false,
               "BlinkDelay": 125,
               "DualBlinkTimingEnabled": false,
               "OffDelay": 750,
               "OnDelay": 125,
-              "StartPosition": 8,
+              "StartPosition": 5,
               "ContainerId": "fe3883f9-9efd-4f40-8aa4-e2fd8d428bca",
               "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpeedLimiterContainer",
               "Description": "Generates a static color when the speed limiter is ON copy",
               "IsEnabled": true
             },
             {
-              "LedCount": 10,
+              "LedCount": 16,
               "Color": "Cyan",
               "BlinkEnabled": true,
               "BlinkDelay": 125,
               "DualBlinkTimingEnabled": false,
               "OffDelay": 750,
               "OnDelay": 125,
-              "StartPosition": 8,
+              "StartPosition": 5,
               "ContainerId": "841cfee2-764d-4886-9fbd-ca72f68d7ab5",
               "ContainerType": "SimHub.Plugins.DataPlugins.RGBDriver.LedsContainers.Status.SpeedLimiterContainer",
               "Description": "Generates a static color when the speed limiter is ON copy",
